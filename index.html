@@ -10,31 +10,46 @@
   <!-- Custom CSS -->
   <style>
     /* Custom Styles */
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-    }
-    .jumbotron {
-      background-color: #007bff;
-      color: #fff;
-      padding: 100px 20px;
-      margin-bottom: 0;
-    }
-    .services-section {
-      padding: 50px 20px;
-    }
-    .contact-section {
-      background-color: #fff;
-      padding: 50px 20px;
-    }
-    .feedback-section {
-      padding: 50px 20px;
-    }
-    .card-center {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+    /* Custom Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.jumbotron {
+  background-color: #007bff;
+  color: #fff;
+  padding: 100px 20px;
+  margin-bottom: 0;
+}
+
+.services-section {
+  padding: 50px 20px;
+}
+
+.contact-section {
+  background-color: #fff;
+  padding: 50px 20px;
+}
+
+.feedback-section {
+  padding: 50px 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
   </style>
 </head>
 <body>
@@ -45,8 +60,8 @@
   <h3>Auto Electrics</h3>
 <br>
 <div class="description-text">
-  <p>Mobile auto electrical service in and around Birmingham.</p>
-  <p>We use the latest diagnostic equipment and have over 20 years of trade experience.</p>
+  <p>Mobile auto electrical service in and around West Midlands, Worcestershire and Warickshire.</p>
+  <p>We bring forth more than two decades of expertise in the trade.</p>
 </div>
 </div>
 
@@ -58,25 +73,42 @@
         <div class="col-md-4">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Private vehicle</h5>
-              <p class="card-text">Professional electrical services for your personal vehicle</p>
-              <p class="card-text">Re-wiring, hard-wiring, fault diagnostic and more</p>
+              <h5 class="card-title">Electrical Systems Installation</h5>
+              <p class="card-text">Our Auto Electricians can install various electrical components in all type of vehicles, such as:</p>
+              <ul>
+                <li>Electronic Control Units(ECUs)</li>
+                <li>Lighting Systems</li>
+                <li>Ignition Systems</li>
+                <li>Entertainment Systems</li>
+                <li>Dashcams</li>
+                <li>etc.</li>
+              </ul>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Commercial vehicles</h5>
-              <p class="card-text">Specialized solutions for commercial vehicles</p>
+              <h5 class="card-title">Diagnostic Testing</h5>
+              <p class="card-text">Utilising cutting-edge diagnostic equipment we identify and troubleshoot electrical issues in all kind of vehicles.</p>
+              <p class="card-text">This may involve problems with:</p>
+              <ul>
+                <li>Batteries</li>
+                <li>Alternator</li>
+                <li>Starter Motor</li>
+                <li>Sensors</li>
+                <li>etc.</li>
+              </ul>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">All vehicle types</h5>
-              <p class="card-text">No matter what kind of vehicle you have, we can help.</p>
+              <h5 class="card-title">Upgrading, Maintaining and Modifications</h5>
+              <p class="card-text">We possess expertise in repairing and replacing crucial components of your vehicle, encompassing wiring and various elements, ensuring the continued safety and roadworthiness of your vehicle.</p>
+              <p class="card-text">Nevertheless, we go beyond addressing the essentials.</p>
+              <p class="card-text">The team specialize in enhancing your vehicle with additional features, including aftermarket lighting, supplementary audio systems, and various customizations</p>
             </div>
           </div>
         </div>
